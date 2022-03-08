@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="card-wrapper">
+
+    <div class="card">
+      <h1>Upload new File</h1>
+    <form method=post enctype=multipart/form-data name="upload-file">
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+      
+    </div>
+  
+  </div>
+{% endblock %}

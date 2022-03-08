@@ -1,0 +1,13 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1> Files in DB </h1>
+
+{% for k,v in form_data.items() %}
+<h3 style = "color: white;"> {{k}}</h3>
+<p style = "color: white;"> {{v}}</p>
+{% endfor %}
+{% endblock %}
+
+{% for item in menu %}
